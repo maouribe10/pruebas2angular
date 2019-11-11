@@ -12,7 +12,7 @@ export class ContactComponent implements OnInit {
     
   }
 
-  text = 'contact page';
+  text = 'Página de contacto';
     contactForm: FormGroup;
     contact = {
         name: '',

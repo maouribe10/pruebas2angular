@@ -12,7 +12,7 @@ export class HomeComponent implements OnInit {
   ngOnInit() {
   }
 
-  text = 'home page';
+  text = 'Página de inicio';
   quoteText = 'this text is meant to be quoted';
 
 }
