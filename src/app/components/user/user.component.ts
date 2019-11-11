@@ -13,7 +13,7 @@ export class UserComponent implements OnInit {
 
   constructor(private userService: UserService) {
     this.users = this.userService.getUsers();
-    console.log(`users -> `+this.users);
+    console.log(`users -> ${this.users}`);
    }
 
   ngOnInit() {
